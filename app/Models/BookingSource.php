@@ -9,7 +9,7 @@ class BookingSource extends Model
 {
     use HasFactory;
 
-     protected $fillable = [
+    protected $fillable = [
         'sourceName',        // Nama sumber pemesanan
         'otaSourceName',     // Nama sumber OTA (optional)
     ];
